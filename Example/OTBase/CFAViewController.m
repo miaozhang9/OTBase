@@ -7,6 +7,7 @@
 //
 
 #import "CFAViewController.h"
+#import <UIColor+QH.h>
 
 @interface CFAViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor qh_colorWithHexString:@"#7a7a7a"];
 }
 
 - (void)didReceiveMemoryWarning

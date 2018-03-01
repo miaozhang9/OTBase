@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FC682B4F6F61CE5A11D3A6E /* Pods_OTBase_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFF283FCC498DEEC3CC73AA /* Pods_OTBase_Tests.framework */; };
+		11822BB988B908381C3EA58E /* libPods-OTBase_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 270A5375A85CD6824A13B779 /* libPods-OTBase_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8ED430D2D14729D6DAE01FA6 /* Pods_OTBase_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA44722C1984884ABD3F386A /* Pods_OTBase_Example.framework */; };
+		A0762266F058F7DE3906AFB7 /* libPods-OTBase_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3FEB8429601A71F2D9D5C7 /* libPods-OTBase_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270A5375A85CD6824A13B779 /* libPods-OTBase_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OTBase_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3860AE54E53F3C4D62F298A2 /* Pods-OTBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTBase_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OTBase_Example/Pods-OTBase_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3AFF283FCC498DEEC3CC73AA /* Pods_OTBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FCC3FE4D95EF51D0EF69B6 /* Pods-OTBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTBase_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OTBase_Example/Pods-OTBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OTBase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTBase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		8623209F69388CB7DEBDC3B7 /* Pods-OTBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTBase_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OTBase_Tests/Pods-OTBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9731FFC08BDE8FFCC2449ECC /* Pods-OTBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTBase_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OTBase_Tests/Pods-OTBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AFB1D3466BCEB6FD6E817090 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D4173C6540C9E63D90481F9C /* OTBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OTBase.podspec; path = ../OTBase.podspec; sourceTree = "<group>"; };
-		DA44722C1984884ABD3F386A /* Pods_OTBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEBCF34F0B3B49F9115C0324 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AFB1D3466BCEB6FD6E817090 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD3FEB8429601A71F2D9D5C7 /* libPods-OTBase_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OTBase_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4173C6540C9E63D90481F9C /* OTBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OTBase.podspec; path = ../OTBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FEBCF34F0B3B49F9115C0324 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8ED430D2D14729D6DAE01FA6 /* Pods_OTBase_Example.framework in Frameworks */,
+				11822BB988B908381C3EA58E /* libPods-OTBase_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2FC682B4F6F61CE5A11D3A6E /* Pods_OTBase_Tests.framework in Frameworks */,
+				A0762266F058F7DE3906AFB7 /* libPods-OTBase_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DA44722C1984884ABD3F386A /* Pods_OTBase_Example.framework */,
-				3AFF283FCC498DEEC3CC73AA /* Pods_OTBase_Tests.framework */,
+				270A5375A85CD6824A13B779 /* libPods-OTBase_Example.a */,
+				BD3FEB8429601A71F2D9D5C7 /* libPods-OTBase_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

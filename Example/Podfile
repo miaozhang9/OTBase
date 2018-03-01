@@ -1,4 +1,4 @@
-use_frameworks!
+#use_frameworks!
 
 target 'OTBase_Example' do
   pod 'OTBase', :path => '../'
