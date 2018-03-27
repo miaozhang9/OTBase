@@ -22,8 +22,13 @@ pod 'OTBase'
 
 ## Author
 
-miaozhang9, 395052985@qq.com
+miaozhang9, 395052985@qq.com,简书Miaoz0070
 
 ## License
 
 OTBase is available under the MIT license. See the LICENSE file for more info.
+
+## Update Version
+0.1.0   init
+0.1.1  add WebSocketLib库 OC版
+
