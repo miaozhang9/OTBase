@@ -7,7 +7,8 @@
 //
 
 #import "CFAViewController.h"
-#import <UIColor+QH.h>
+#import <OTBase/UIColor+QH.h>
+#import "WebSocketStompVC.h"
 
 @interface CFAViewController ()
 
@@ -19,9 +20,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor qh_colorWithHexString:@"#7a7a7a"];
+    self.view.backgroundColor = [UIColor qh_colorWithHexString:@"#af4ac2"];
+    
 }
 
+- (void)webSocketStomp {
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 50, 70, 30);
+    [button setTitle:@"WebSocket" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)click:(id)sender {
+    WebSocketStompVC *vc = [[WebSocketStompVC alloc] init];
+    [self.navigationController pushViewController:vc animated:true];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

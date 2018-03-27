@@ -1,11 +1,11 @@
-#use_frameworks!
+use_frameworks!
 
 target 'OTBase_Example' do
   pod 'OTBase', :path => '../'
 
   target 'OTBase_Tests' do
     inherit! :search_paths
-
+    pod 'jetfire', '~>0.1.2'
     
   end
 end

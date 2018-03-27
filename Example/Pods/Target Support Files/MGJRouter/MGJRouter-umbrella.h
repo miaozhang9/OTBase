@@ -10,9 +10,8 @@
 #endif
 #endif
 
-#import "UIColor+QH.h"
-#import "WebsocketStompKit.h"
+#import "MGJRouter.h"
 
-FOUNDATION_EXPORT double OTBaseVersionNumber;
-FOUNDATION_EXPORT const unsigned char OTBaseVersionString[];
+FOUNDATION_EXPORT double MGJRouterVersionNumber;
+FOUNDATION_EXPORT const unsigned char MGJRouterVersionString[];
 

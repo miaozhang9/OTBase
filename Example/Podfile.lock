@@ -1,9 +1,12 @@
 PODS:
+  - jetfire (0.1.5)
   - MGJRouter (0.9.3)
-  - OTBase (0.1.0):
+  - OTBase (0.1.1):
+    - jetfire (~> 0.1.2)
     - MGJRouter (~> 0.9.1)
 
 DEPENDENCIES:
+  - jetfire (~> 0.1.2)
   - OTBase (from `../`)
 
 EXTERNAL SOURCES:
@@ -11,9 +14,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  jetfire: 60c16cd6ae0282928e24203eb93f03b89c1929ce
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
-  OTBase: 7bc86931cee00ea4df323e50d93bdd4110b72939
+  OTBase: 50c9ba0e93cbc6fa13093177424f67bbc2b2446f
 
-PODFILE CHECKSUM: 65e3d655213f582f18ed2c14eeef758f9c75e195
+PODFILE CHECKSUM: 84df5f8868e953c36e07d1512a8789c5e37ec6d6
 
-COCOAPODS: 1.4.0.rc.1
+COCOAPODS: 1.4.0
